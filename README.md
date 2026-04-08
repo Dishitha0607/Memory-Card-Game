@@ -1,16 +1,127 @@
-# React + Vite
+# 🧠 Memory Card Game (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive **Memory Matching Game** built using **React + Vite**. Flip cards, match pairs, and test your memory skills!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🎴 Flip cards with smooth UI
+* 🔀 Random card shuffling every game
+* 🧩 Match logic with score tracking
+* 📊 Move counter
+* 🔒 Prevents rapid clicks during evaluation
+* 🎉 Win message when all cards are matched
+* ♻️ Reset / Restart game anytime
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React (Functional Components + Hooks)
+* Vite (Fast development build tool)
+* CSS (Custom styling)
+
+---
+
+## 📁 Project Structure
+
+```
+memory-cards/
+│
+├── public/
+├── src/
+│   ├── assets/          # Images & icons
+│   ├── components/      # UI Components
+│   │   ├── Card.jsx
+│   │   ├── GameHeader.jsx
+│   │   └── WinMessage.jsx
+│   ├── hooks/           # Custom logic
+│   │   └── useGameLogic.js
+│   ├── App.jsx          # Main component
+│   ├── index.css        # Styles
+│   └── main.jsx         # Entry point
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## 🧠 How the Game Works
+
+1. Cards are **shuffled randomly** at the start.
+2. Player clicks a card → it flips.
+3. Player selects a second card:
+
+   * ✅ If both match → they stay flipped
+   * ❌ If not → they flip back after a short delay
+4. Moves are counted for every attempt.
+5. Game ends when all pairs are matched.
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/memory-cards.git
+cd memory-cards
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎮 Controls
+
+* Click on any card to flip it
+* Match all pairs to win
+* Use **Reset** button to restart the game
+
+---
+
+## 🖼️ Screenshot of the Game
+
+---
+
+## 📌 Future Improvements
+
+* ⏱️ Timer feature
+* 🏆 High score system
+* 🎚️ Difficulty levels (easy/medium/hard)
+
+---
+
+## 🙌 Acknowledgements
+
+Built as a learning project to practice:
+
+* React Hooks
+* State management
+* Component structure
+* Game logic implementation
+
+---
+
+## 📄 License
+
+This project is open-source and free to use.
+
+---
+
+## 💡 Author
+
+Made with ❤️ by Dishitha 😄
+Feel free to improve and expand it!
