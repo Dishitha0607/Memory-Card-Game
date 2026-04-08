@@ -93,7 +93,7 @@ npm run dev
 ---
 
 ## 🖼️ Screenshot of the Game
-![image alt] {https://github.com/Dishitha0607/Memory-Card-Game/blob/fcf8a3dfc86d8c80636a0e7ce92469ada4a3ef29/Screenshot%202026-04-08%20192727.png}
+![Memory Card Game Screenshot](https://github.com/Dishitha0607/Memory-Card-Game/blob/fcf8a3dfc86d8c80636a0e7ce92469ada4a3ef29/Screenshot%202026-04-08%20192727.png)
 ---
 
 ## 📌 Future Improvements
